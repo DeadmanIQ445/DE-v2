@@ -1,1 +1,1 @@
-Made 1 variant
+Made 7 variant
