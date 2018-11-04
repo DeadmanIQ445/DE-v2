@@ -2,12 +2,12 @@ import numpy as np
 
 
 def f(x, y):
-    return -y - x
+    return -x + y*(2*x+1)/x
 
 
 def real_f(x, c):
-    return 1 - x + c/np.exp(x)
+    return 0.5*x + x*c*np.exp(2*x)
 
 
 def in_value(x, y):
-    return (y + x - 1) * np.exp(x)
+    return (2*y-x)/(2*x*np.exp(2*x))
